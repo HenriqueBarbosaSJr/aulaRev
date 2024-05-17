@@ -5,6 +5,7 @@ const routes = express.Router();
 
 routes.get('/', controller.raiz);
 routes.get('/clientes', controller.clientes);
+routes.get('/produtos', controller.produtos);
 
 
 module.exports = routes;
